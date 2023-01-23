@@ -1,0 +1,19 @@
+{
+  "name": "qwik-inject",
+  "version": "0.0.1",
+  "description": "Dependency Injection for Qwik",
+  "main": "./index.qwik.cjs",
+  "qwik": "./index.qwik.mjs",
+  "module": "./index.qwik.mjs",
+  "types": "./packages/qwik-inject/src/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.qwik.mjs",
+      "require": "./index.qwik.cjs"
+    }
+  },
+  "files": [
+    "packages/qwik-inject/src"
+  ]
+}
