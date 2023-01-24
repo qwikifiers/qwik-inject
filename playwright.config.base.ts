@@ -17,7 +17,7 @@ export const baseConfig: PlaywrightTestConfig = {
   use: {
     actionTimeout: 0,
     baseURL,
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
   },
   fullyParallel: true,
   forbidOnly: !!process.env.CI,

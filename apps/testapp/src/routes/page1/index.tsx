@@ -11,6 +11,17 @@ export default component$(() => {
     <h1>This is the page1</h1>
 
     <div>
+      <button onClick$={() => {
+        productStore.push({
+          id: '1',
+          name: 'Product 1',
+          price: 100
+        })
+      }}>Add product</button>
+    </div>
+
+
+    <div>
       <h2>Products: </h2>
       <ul>
         

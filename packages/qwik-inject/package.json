@@ -13,7 +13,8 @@
       "require": "./index.qwik.cjs"
     }
   },
-  "files": [
-    "packages/qwik-inject/src"
-  ]
+  "peerDependencies": {
+    "@builder.io/qwik": ">=0.16.2"
+  }
+  
 }
